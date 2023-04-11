@@ -1,9 +1,64 @@
+:root{
+        --primarycolor: #E1D7C6 ;
+        --secondarycolor: #579BB1;
+        --titlecolor: #ECE8DD;
+        --defaulttextfont: 'Sedgwick Ave Display', cursive;
+        --defaultheadingfont: 'Lato', 'sans-serif';
+}
+
 .heading{
         font-size: xx-large;
-        color: white;
-        font-family: 'Sedgwick Ave Display', cursive;
+        color: #E1D7C6;
+        font-family: var(--defaulttextfont);
+        margin: 0;
+}
+.bio{
+        font-family: var(--defaultheadingfont); 
+        color: #E1D7C6;
+        font-size: 1em; /* 1 em = 16px */
+        padding-bottom: 40px;
 }
 body{
-        background-color: #93BFCF;
+
+        margin: 0%;}
+
+.header{
+        color: var(--primarycolor);
+        background-color: var(--secondarycolor);
+        /* height: 400px; */
+        text-align: center;
 
 }
+.heading-grp{
+        padding: 100px;
+        /* display: inline-block;
+        /* padding: 20px; */
+        /* margin-top: 100px; */ 
+        
+}
+.topcloud{
+        
+width: 100px;
+position: absolute;
+margin-block-start: -40px;
+margin-left: 250px;
+
+}
+.bottomcloud{
+        position: absolute;
+        margin-block-start: -100px;
+        margin-left: -100px; ;
+        width: 100px;
+}
+.mountain{
+width:600px;
+margin-block-start: -100px;
+margin-bottom: -5px;
+
+}
+
+/* 
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Sedgwick Ave Display', cursive; */
+
