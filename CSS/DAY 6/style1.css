@@ -1,0 +1,101 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #66BFBF;
+    --backgroundColor: #E4F9F5;
+    --myTitleFont:'Dancing Script', cursive;
+    --titleFOnt: 'Sacramento', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+    
+
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+   
+    /* height: 90vh; */
+    /* width: 100vw; */
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+.mid-section{
+    text-align: center;
+    margin: 100px auto 50px auto;
+    width: 75%;
+}
+.heading {
+    font-family: var(--titleFOnt);
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    font-size: 4rem;
+}
+h2{
+    font-family: var(--fontDefaultHeading);
+    margin: 0;
+    font-size: 2.5 rem;  /* 1em = 16px */
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+    /* margin-block-start: -100px;
+    margin-left: 250px; */
+    width: 120px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 150px;
+    bottom: 250px;
+    /* margin-block-start: 50px;
+    margin-left: -100px; */
+    width: 120px;
+}
+.mountain{
+    width: 300px;
+}
+img{
+    margin-bottom:-5px;
+    /* padding-top: 100px;
+    padding-bottom: 20px; */
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+.mypic{
+    /* border-radius: 100%; */
+    width: 200px;
+    margin:100px auto 50px auto;
+    display: block;
+}
+.intro{
+    width: 40%;
+    margin:auto;
+    line-height: 2;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top:  var(--backgroundColor) 5px dotted ;
+    width: 5%;
+}
+.upflairs{
+width: 200px;
+}
+.Internship{
+width: 200px;
+}
