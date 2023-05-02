@@ -1,9 +1,10 @@
 /* defining the global variables */
 :root{
-    --primaryColor: #66BFBF;
-    --backgroundColor: #E4F9F5;
+    --primaryColor: #577D86;
+    --primaryAccentColor: #5caec0;
+    --backgroundColor: #B9EDDD;
     --myTitleFont:'Dancing Script', cursive;
-    --titleFOnt: 'Sacramento', cursive;
+    --titleFont:'Sacramento', cursive;
     --fontDefaultTextFont: 'Lato', sans-serif;
     --fontDefaultHeading: 'Montserrat', sans-serif; 
 }
@@ -13,89 +14,138 @@
 body{
     margin: 0px;
     color: var(--primaryColor);
-    
-
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
 }
 
-.top-section{
-    background-color: var(--backgroundColor);
-   
-    /* height: 90vh; */
-    /* width: 100vw; */
-    text-align: center;
-    padding-top: 150px;
-    
-}
-
-.mid-section{
-    text-align: center;
-    margin: 100px auto 50px auto;
-    width: 75%;
-}
-.heading {
-    font-family: var(--titleFOnt);
-    font-size: 6rem;
-    margin: 50px auto 0 auto;
-    font-size: 4rem;
-}
-h2{
+h2 {
     font-family: var(--fontDefaultHeading);
     margin: 0;
-    font-size: 2.5 rem;  /* 1em = 16px */
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 40px;
-
-    /* margin-block-start: -100px;
-    margin-left: 250px; */
-    width: 120px;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 150px;
-    bottom: 250px;
-    /* margin-block-start: 50px;
-    margin-left: -100px; */
-    width: 120px;
-}
-.mountain{
-    width: 300px;
-}
-img{
-    margin-bottom:-5px;
-    /* padding-top: 100px;
-    padding-bottom: 20px; */
-}
-/* 
-font-family: 'Dancing Script', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif; 
-*/
-.mypic{
-    /* border-radius: 100%; */
-    width: 200px;
-    margin:100px auto 50px auto;
-    display: block;
-}
-.intro{
-    width: 40%;
-    margin:auto;
-    line-height: 2;
+    font-size: 2.00rem;  /* 1em = 16px */
+    padding-bottom: 20px;
 }
 
 hr{
     margin-top: 100px;
     margin-bottom: 100px;
-    border-top:  var(--backgroundColor) 5px dotted ;
+    border: dotted var(--backgroundColor) 5px;
+    border-bottom: none;
     width: 5%;
 }
-.upflairs{
-width: 200px;
+
+a{
+    text-decoration: none;
+    color: white;
 }
-.Internship{
-width: 200px;
+
+
+.top-section{
+    background-color: var(--backgroundColor);
+    text-align: center;
+    padding-top: 120px;
 }
+
+.middle-section{
+    margin: 50px auto 100px auto;
+    text-align: center;
+    width: 60%;
+}
+
+.bottom-section{
+    margin: 0px auto;    
+    text-align: center;
+    background-color: var(--primaryColor);
+}
+
+
+.heading {
+    font-family: var(--titleFont);
+    font-size: 4.75rem;    
+    margin: 0;
+}
+
+.top-cloud{
+    position: absolute;
+    margin-block-start: -80px;
+    margin-left: 350px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 80px;
+    margin-left: -150px;
+    width: 100px;
+}
+.mountain{
+    width: 400px;
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+    margin: 100px auto 50px auto; /* TRBL */
+    display: block;
+}
+
+.intro{
+    width: 75%;
+    margin: auto;
+}
+
+.skill-image{
+    width: 150px;
+}
+
+.my-skills{
+    margin-bottom: 60px;
+}
+
+.left{
+    float: left;
+    margin-right: 40px;
+}
+
+.right{
+    float: right;
+    margin-left: 40px;
+}
+
+.skill-row{
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.contact{
+    background-color: var(--primaryColor);
+    font-size: 1.75rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.contact:hover{
+    background-color: var(--primaryAccentColor);
+}
+
+.social{
+    padding:40px 0px;
+}
+
+.social-link{
+    margin: 0px 40px;
+}
+
+.social-link:hover{
+    color: var(--backgroundColor);
+}
+
+.copyright{
+    margin: 0;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* 
+font-family: 'Dancing Script', cursive;
+fon/docs/user-guide/hints/hint-detect-css-reflows/composite/t-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
