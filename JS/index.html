@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA-SCRIPT INTRODUCTION</title>
+</head>
+<body>
+                <!-- Inline JS -->
+        <p onclick="alert('wow')">   Inline JS  </p>
+
+
+                <!-- INTERNAL JS -->
+        <script>
+            // alert('You are not safe anymore')
+            function konsawala(val){
+                console.log(val+val)
+            }
+        </script>
+
+        <p onclick="konsawala('koi value')">ye internal ko call krega</p>
+
+
+                <!-- EXTERNLA JS -->
+        <p onclick="dosomething(2)"> YE BAHAR SE KAAM KREGA</p>
+        <script src="index.js"></script>
+</body>
+</html>

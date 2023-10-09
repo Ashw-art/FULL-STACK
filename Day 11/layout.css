@@ -24,33 +24,44 @@ body{
 
 .red{
     background-color: red;
+    order: 1;
 }
 
 .green{
     /* width: 300px; */
     background-color: green;
+    order: 2;
 }
 
 .brown{
-    /* height: 800px; */
+    height: 600px;
     background-color: brown;
+    order: 3;
 }
 
 .blue{
     background-color: blue;
+    order: 4;
+    flex-grow: 3;
 }
 
 .orange{
     background-color: orange;
+    order: 5;
+    flex-grow: 2;
 }
 .cyan{
     background-color: cyan;
+    order: 6;
 }
+
 
 .black{
     background-color: black;
+    order: 7;
 }
 
 .teal{
     background-color: teal;
+    order: 8;
 }
